@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Найкраще Кафе у Світі</title>
+</head>
+<body>
+    <h1 class="title" id="title">Ласкаво просимо до найкращого кафе у світі!</h1>
+
+    <div class="container">
+        <p class="text">Натисніть кнопку, щоб дізнатись наші найкращі страви:</p>
+        <form class="form" data-qa="big">
+            <label for="showMenu">
+                <button class="btn" id="showMenu" type="button">Показати меню</button>
+            </label>
+        </form>
+    </div>
+
+    <div class="menu" id="menu">
+        <h3 class="menu_title">Наше меню:</h3>
+        <ul class="menuList" id="menuList">
+            <li class="item" data-qa="small">Торт</li>
+            <li class="item" data-qa="small">Капучино</li>
+            <li class="item" data-qa="small">Кава</li>
+            <li class="item" data-qa="small">Піца</li>
+            <li class="item" data-qa="small">Бургер</li>
+            <li class="item" data-qa="small">Вода Моршинська</li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

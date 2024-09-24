@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #C5E1A5, #A5D6A7); 
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: #81C784; 
+    color: #333;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover {
+    background-color: #66BB6A; 
+}
+
+.menu {
+    display: none;
+    margin-top: 25px;
+    padding: 20px 40px 40px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+.menu_title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menuList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.item {
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 3px;
+}
+
+.highlight {
+    background-color: #FFD54F; /* Жовтий колір підсвічування */
+    color: #333; /* Колір тексту */
+}
